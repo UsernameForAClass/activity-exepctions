@@ -17,7 +17,7 @@ public class Calculator {
     public float divide(float a, float b) throws DivideByZeroException {
 
         if (b == 0.0) {
-            throw new DivideByZeroException("Denominator must be non zero!");
+            throw new DivideByZeroException("Denominator must be non zero");
         }
         return a / b;
     }
